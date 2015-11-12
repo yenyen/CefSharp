@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>CefSharpONE</id>
+        <version>47.0.0.0</version>
+        <authors>Logione Sàrl</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>CefSharp WinForms x86 with support for clickonce</description>
+    </metadata>
+    <files>
+        <file src="CefSharp.WinForms.Example\bin\x86\Release\CefSharp.dll" target="lib\net45\CefSharp.dll" />
+		    <file src="CefSharp.WinForms.Example\bin\x86\Release\CefSharp.Core.dll" target="lib\net45\CefSharp.Core.dll" />
+        <file src="CefSharp.WinForms.Example\bin\x86\Release\CefSharp.WinForms.dll" target="lib\net45\CefSharp.WinForms.dll" />
+    </files>
+</package>

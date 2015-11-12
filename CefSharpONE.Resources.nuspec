@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>CefSharpONE.Resources</id>
+        <version>47.0.0.0</version>
+        <authors>LogiONE Sàrl</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>CefSharp WinForms x86 with support for clickonce - Resources to add to release directory</description>
+    </metadata>
+    <files>
+		<file src="CefSharp.WinForms.Example\bin\x86\Release\CefSharp.BrowserSubprocess.exe" target="content\package\CefSharp.BrowserSubprocess.exe" />
+        <file src="CefSharp.WinForms.Example\bin\x86\Release\*.dll" target="content\package\" exclude="CefSharp.WinForms.Example\bin\x86\Release\CefSharp*.dll" />
+        <file src="CefSharp.WinForms.Example\bin\x86\Release\*.bin" target="content\package\" />
+        <file src="CefSharp.WinForms.Example\bin\x86\Release\*.dat" target="content\package\" />
+        <file src="CefSharp.WinForms.Example\bin\x86\Release\*.pak" target="content\package\" />
+        <file src="CefSharp.WinForms.Example\bin\x86\Release\locales\*.pak" target="content\package\locales\" />
+    </files>
+</package>
